@@ -1,9 +1,158 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36 Edg/128.0.0.0" version="24.7.8">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36 Edg/128.0.0.0" version="24.7.15">
   <diagram name="Page-1" id="m2Ttf2pD9mqQHqX1Dok-">
-    <mxGraphModel>
+    <mxGraphModel dx="979" dy="459" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="w2vwSfNq4s04HZJWD3r6-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="w2vwSfNq4s04HZJWD3r6-1" target="w2vwSfNq4s04HZJWD3r6-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="w2vwSfNq4s04HZJWD3r6-38" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="w2vwSfNq4s04HZJWD3r6-1" target="w2vwSfNq4s04HZJWD3r6-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="w2vwSfNq4s04HZJWD3r6-1" value="Create the functional account/ProcessID &amp;amp; groups" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="20" y="200" width="110" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="w2vwSfNq4s04HZJWD3r6-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="w2vwSfNq4s04HZJWD3r6-2" target="w2vwSfNq4s04HZJWD3r6-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="w2vwSfNq4s04HZJWD3r6-43" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="w2vwSfNq4s04HZJWD3r6-2" target="w2vwSfNq4s04HZJWD3r6-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="w2vwSfNq4s04HZJWD3r6-2" value="Submit IAM Pull Request to create Client &amp;amp; Resource app" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="180" y="205" width="100" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="w2vwSfNq4s04HZJWD3r6-49" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="w2vwSfNq4s04HZJWD3r6-3" target="w2vwSfNq4s04HZJWD3r6-45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="w2vwSfNq4s04HZJWD3r6-53" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="w2vwSfNq4s04HZJWD3r6-3" target="w2vwSfNq4s04HZJWD3r6-47">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="w2vwSfNq4s04HZJWD3r6-3" value="Get AzureAD Client application ID" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="325" y="205" width="100" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="w2vwSfNq4s04HZJWD3r6-55" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="w2vwSfNq4s04HZJWD3r6-5" target="w2vwSfNq4s04HZJWD3r6-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="w2vwSfNq4s04HZJWD3r6-5" value="Generate the Authentication Token&lt;br&gt;&lt;a href=&quot;https://minerva-docs.cglcloud.com/userguide/miw/OAuth_Connection.html#generate-the-authentication-token&quot;&gt;&lt;font style=&quot;font-size: 8px;&quot;&gt;OAuth Connection - Minerva Docs (cglcloud.com)&lt;/font&gt;&lt;/a&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="600" y="185" width="100" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="w2vwSfNq4s04HZJWD3r6-7" value="Snowflake configuration changes Done by Minerva/CDP Team&lt;br&gt;&lt;a href=&quot;https://minerva-docs.cglcloud.com/userguide/miw/OAuth_Connection.html#get-the-azuread-client-application-id&quot;&gt;&lt;font style=&quot;font-size: 8px;&quot;&gt;OAuth Connection - Minerva Docs (cglcloud.com)&lt;/font&gt;&lt;/a&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="740" y="170" width="100" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="w2vwSfNq4s04HZJWD3r6-13" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="160" y="640" as="sourcePoint" />
+            <mxPoint x="160" y="120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="w2vwSfNq4s04HZJWD3r6-14" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="300" y="640" as="sourcePoint" />
+            <mxPoint x="300" y="120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="w2vwSfNq4s04HZJWD3r6-15" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="440" y="640" as="sourcePoint" />
+            <mxPoint x="440" y="120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="w2vwSfNq4s04HZJWD3r6-16" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="580" y="640" as="sourcePoint" />
+            <mxPoint x="580" y="120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="w2vwSfNq4s04HZJWD3r6-17" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="720" y="640" as="sourcePoint" />
+            <mxPoint x="720" y="120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="w2vwSfNq4s04HZJWD3r6-18" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint y="160" as="sourcePoint" />
+            <mxPoint x="850" y="160" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="w2vwSfNq4s04HZJWD3r6-19" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint y="120" as="sourcePoint" />
+            <mxPoint x="850" y="120" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="w2vwSfNq4s04HZJWD3r6-20" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="850" y="640" as="sourcePoint" />
+            <mxPoint x="850" y="120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="w2vwSfNq4s04HZJWD3r6-21" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint y="640" as="sourcePoint" />
+            <mxPoint y="120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="w2vwSfNq4s04HZJWD3r6-22" value="Step 1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="45" y="128" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="w2vwSfNq4s04HZJWD3r6-23" value="Step 3" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="335" y="128" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="w2vwSfNq4s04HZJWD3r6-24" value="Step 4" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="475" y="128" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="w2vwSfNq4s04HZJWD3r6-25" value="Step 5" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="615" y="128" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="w2vwSfNq4s04HZJWD3r6-26" value="Step 6" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="755" y="128" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="w2vwSfNq4s04HZJWD3r6-27" value="Step 2" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="200" y="128" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="w2vwSfNq4s04HZJWD3r6-39" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="w2vwSfNq4s04HZJWD3r6-35" target="w2vwSfNq4s04HZJWD3r6-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="w2vwSfNq4s04HZJWD3r6-35" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;Create a Azure AD Group&lt;br&gt;f&lt;/font&gt;&lt;font style=&quot;font-size: 8px;&quot;&gt;ollow the steps mentioned in&amp;nbsp;&lt;/font&gt;&lt;div&gt;&lt;a href=&quot;https://minerva-docs.cglcloud.com/userguide/miw/create_new_ad_group.html&quot;&gt;&lt;font style=&quot;font-size: 8px;&quot;&gt;Create New AD Group - Minerva Docs (cglcloud.com)&lt;/font&gt;&lt;/a&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="15" y="320" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="w2vwSfNq4s04HZJWD3r6-36" value="Create the Process ID following the document&amp;nbsp;&lt;br&gt;&lt;a href=&quot;https://minerva-docs.cglcloud.com/userguide/miw/create_new_ad_group.html&quot;&gt;&lt;font style=&quot;font-size: 8px;&quot;&gt;Create New AD Group - Minerva Docs (cglcloud.com)&lt;/font&gt;&lt;/a&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="12.5" y="460" width="125" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="w2vwSfNq4s04HZJWD3r6-44" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="w2vwSfNq4s04HZJWD3r6-41" target="w2vwSfNq4s04HZJWD3r6-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="w2vwSfNq4s04HZJWD3r6-41" value="Go to&amp;nbsp;&lt;a href=&quot;https://git.cglcloud.com/IAM/IAM-Configuration&quot;&gt;&lt;font style=&quot;font-size: 8px;&quot;&gt;IAM/IAM-Configuration: Repo that stores all the configuration files for the IAM orgs pipelines (cglcloud.com)&lt;/font&gt;&lt;/a&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="180" y="320" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="w2vwSfNq4s04HZJWD3r6-42" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;Go to&amp;nbsp;&lt;span style=&quot;color: rgba(0, 0, 0, 0.87); font-family: Roboto, -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif; text-align: left; background-color: rgb(255, 255, 255);&quot;&gt;Config/&lt;/span&gt;&lt;/font&gt;&lt;div&gt;&lt;span style=&quot;color: rgba(0, 0, 0, 0.87); font-family: Roboto, -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif; text-align: left; background-color: rgb(255, 255, 255);&quot;&gt;&lt;font style=&quot;font-size: 8px;&quot;&gt;Teams/&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: rgba(0, 0, 0, 0.87); font-family: Roboto, -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif; text-align: left; background-color: rgb(255, 255, 255);&quot;&gt;&lt;font style=&quot;font-size: 8px;&quot;&gt;CDP3_Snowflake/&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: rgba(0, 0, 0, 0.87); font-family: Roboto, -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif; text-align: left; background-color: rgb(255, 255, 255);&quot;&gt;&lt;font style=&quot;font-size: 8px;&quot;&gt;Azure/Apps&lt;br&gt;follow for reference&amp;nbsp;&lt;br&gt;&lt;/font&gt;&lt;/span&gt;&lt;a href=&quot;https://minerva-docs.cglcloud.com/userguide/miw/OAuth_Connection.html#submit-the-iam-pull-requests-to-create-client-resource-app&quot;&gt;&lt;font style=&quot;font-size: 8px;&quot;&gt;OAuth Connection - Minerva Docs (cglcloud.com)&lt;/font&gt;&lt;/a&gt;&lt;span style=&quot;color: rgba(0, 0, 0, 0.87); font-family: Roboto, -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif; text-align: left; background-color: rgb(255, 255, 255);&quot;&gt;&lt;font style=&quot;font-size: 8px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="180" y="460" width="100" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="w2vwSfNq4s04HZJWD3r6-50" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="w2vwSfNq4s04HZJWD3r6-45" target="w2vwSfNq4s04HZJWD3r6-46">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="w2vwSfNq4s04HZJWD3r6-45" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;&lt;span style=&quot;color: rgba(0, 0, 0, 0.87); font-family: Roboto, -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif; text-align: left; background-color: rgb(255, 255, 255);&quot;&gt;request AzureAD group “o365 directory readers” from&amp;nbsp;&lt;/span&gt;&lt;a style=&quot;box-sizing: inherit; -webkit-tap-highlight-color: transparent; text-decoration-line: none; word-break: break-word; transition: color 125ms; font-family: Roboto, -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif; text-align: left; background-color: rgb(255, 255, 255);&quot; href=&quot;https://access.cargill.com/&quot;&gt;https://access.cargill.com/&lt;/a&gt;&lt;span style=&quot;color: rgba(0, 0, 0, 0.87); font-family: Roboto, -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif; text-align: left; background-color: rgb(255, 255, 255);&quot;&gt;&amp;nbsp;for his DS ID.&lt;/span&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="325" y="320" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="w2vwSfNq4s04HZJWD3r6-46" value="&lt;span style=&quot;font-size: 8px; text-align: left; background-color: rgb(255, 255, 255); color: rgba(0, 0, 0, 0.87); font-family: Roboto, -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif;&quot;&gt;Log into&amp;nbsp;&lt;/span&gt;&lt;a style=&quot;font-size: 8px; text-align: left; background-color: rgb(255, 255, 255); font-family: Roboto, -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif; box-sizing: inherit; -webkit-tap-highlight-color: transparent; text-decoration-line: none; word-break: break-word; transition: color 125ms;&quot; href=&quot;https://portal.azure.com/&quot;&gt;AzureAD Portal&lt;/a&gt;&lt;span style=&quot;font-size: 8px; text-align: left; background-color: rgb(255, 255, 255); color: rgba(0, 0, 0, 0.87); font-family: Roboto, -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif;&quot;&gt;&amp;nbsp;with your DS ID account only. Click activate to elevate our privileges in AzureAD temporarily (4 hours)&lt;br&gt;Follow&amp;nbsp;&lt;/span&gt;&lt;a href=&quot;https://minerva-docs.cglcloud.com/userguide/miw/OAuth_Connection.html#get-the-azuread-client-application-id&quot;&gt;&lt;font style=&quot;font-size: 8px;&quot;&gt;OAuth Connection - Minerva Docs (cglcloud.com)&lt;/font&gt;&lt;/a&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="315" y="460" width="120" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="w2vwSfNq4s04HZJWD3r6-54" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="w2vwSfNq4s04HZJWD3r6-47" target="w2vwSfNq4s04HZJWD3r6-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="w2vwSfNq4s04HZJWD3r6-47" value="Get the secret from IAM vault application for the PS ID&lt;br&gt;&lt;a href=&quot;https://minerva-docs.cglcloud.com/userguide/miw/OAuth_Connection.html#get-the-secret-from-the-iam-vault-application-for-the-ps-id&quot;&gt;&lt;font style=&quot;font-size: 8px;&quot;&gt;OAuth Connection - Minerva Docs (cglcloud.com)&lt;/font&gt;&lt;/a&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="455" y="185" width="100" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="w2vwSfNq4s04HZJWD3r6-56" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint y="640" as="sourcePoint" />
+            <mxPoint x="850" y="640" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
